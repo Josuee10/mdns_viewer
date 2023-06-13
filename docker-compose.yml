@@ -1,0 +1,10 @@
+version: '3'
+services:
+  mdns_viewer:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+
+
